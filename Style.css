@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px 0px;
+    background-color: red;
+}
+
+#alert{
+    background-color: #77d977;
+    width: 23%;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px;
+    transition: 0.5s;
+    right: -500px;
+}
+
+#alert p{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.left a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right i{
+    color: #fff;
+    font-size: 22px;
+    position: relative;
+}
+
+.right span{
+    background-color: #fff;
+    color: red;
+    padding: 3px 5px;
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    border-radius: 100%;
+}
+
+
+
